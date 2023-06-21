@@ -7,7 +7,7 @@ class testingEnglishtoFrench(unittest.TestCase):
     def test_hello_translation(self):
         english_text = "Hello"
         translated_text = english_to_french(english_text)
-        self.assertEqual(translated_text, "Pepitoooo")
+        self.assertEqual(translated_text, "Bonjour")
 
     def test_translation_not_equal(self):
         english_text = "Hello"
